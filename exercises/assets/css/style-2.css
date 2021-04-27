@@ -1,0 +1,46 @@
+* { margin: 0; padding: 0; border: none }
+*, *::before, *::after { box-sizing: border-box }
+html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+scroll-behavior: smooth; scroll-padding-top: 20px }
+body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+min-height: 100vh; text-rendering: optimizeSpeed }  
+img { width: 100%; height: auto; display: block }
+h1, h2, h3, h4 { width: 100% }
+input, button, textarea, select { font: inherit }
+
+body { background-color: antiquewhite }
+
+@media (min-width:768px) { body { padding: 4% 20% } }
+@media (max-width:767px) { body { padding: 12% 8% } }
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+    color: brown;
+    margin-bottom: 56px;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 64px;     
+    text-align: center;
+    color: brown;
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-bottom: 4px;
+    font-size: 32px;
+    color: brown;
+}
+
+p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
